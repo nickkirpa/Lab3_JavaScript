@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head lang="uk">
+    <meta charset="UTF-8">
+    <title>My Page</title>
+
+
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>   
+<div class="bl-background">
+    <div class="container">
+            <div class="eleven-wide">
+                <div class="bl-list">
+                    <div class="addition">
+                        <div class="add-segment">
+                            <input id="inputId" type="text" placeholder="Назва товару" class="textarea">
+                            <button data-tooltip="Додати" class="add">Додати</button>
+                        </div>
+                    </div>
+                    <div class="bl-row" id="Помідори">
+                        <input class="bl-product" value="Помідори">
+                        <div class="bl-count">
+                            <button data-tooltip="Bідняти" class="bl-minus">-</button>
+                            <span class="bl-label">1</span>
+                            <button data-tooltip="Додати" class="bl-plus">+</button>
+                        </div>
+                        <div class="bl-buttons">
+                            <button data-tooltip="Куплене" class="bl-bought-button" id ="bought-but">Купленo</button> 
+                            <button data-tooltip="Видалити" class="bl-delete">x</button>
+                        </div>
+                    </div>
+                    <div class="bl-row" id="Печиво">
+                        <input class="bl-product" value="Печиво">
+                        <div class="bl-count">
+                            <button data-tooltip="Bідняти" class="bl-minus">-</button>
+                            <span class="bl-label">1</span>
+                            <button data-tooltip="Додати" class="bl-plus">+</button>
+                        </div>
+                        <div class="bl-buttons">
+                            <button data-tooltip="Куплене" class="bl-bought-button" id ="bought-but">Купленo</button> 
+                            <button data-tooltip="Видалити" class="bl-delete">x</button>
+                        </div>
+                    </div>
+                    <div class="bl-row" id="Сир" >
+                        <input class="bl-product" value="Сир">
+                        <div class="bl-count">
+                            <button data-tooltip="Bідняти" class="bl-minus">-</button>
+                            <span class="bl-label">1</span>
+                            <button data-tooltip="Додати" class="bl-plus">+</button>
+                        </div>
+                        <div class="bl-buttons">
+                            <button data-tooltip="Куплене" class="bl-bought-button" id ="bought-but">Купленo</button> 
+                            <button data-tooltip="Видалити" class="bl-delete">x</button>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="five-wide">
+                <div class="bl-bought">
+                    <div class="segment">
+                        <h3 class="bl-title-left">Залишилося</h3>
+                    </div>
+                    <div class="segment">
+                        <div class = "bl-left-left">
+                        <div class = "bl-left-product" id = "Помідори">
+                        <div class="left-label">
+                            Помідори
+                        </div>
+                        <span class="left-number">
+                                1
+                        </span>
+                        </div>
+                        <div class = "bl-left-product" id= "Печиво">
+                        <div class="left-label">
+                            Печиво
+                        </div>
+                        <span class="left-number">
+                            1
+                        </span>
+                        </div>
+                        <div class = "bl-left-product" id = "Сир">
+                        <div class="left-label"ч>
+                            Сир
+                        </div>
+                        <span class="left-number">
+                                1
+                        </span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="segment">
+                        <h3 class="bl-title-bought">Куплене</h3>
+                    </div>
+                    <div class="segment">
+                        <div class = "bought"></div>
+                    </div>
+                </div>
+            </div>
+        <div class="bl-badge">
+            <div class="badge-title">BuyList</div>
+            <div class="badge-form">Created by: <br> Nick Kirpa</div>
+        </div>
+    
+    </div>
+
+    <div class="hidden">
+        <div id="left-panel">
+            <div class="bl-left-product">
+                <div id="inpBought" class="left-label"></div>
+                <span class="left-number">1</span>
+            </div>
+            </div>
+    <div id="input-panel">
+        <div class="bl-row">
+                <input id="inpTo" class="bl-product" type="text">
+                <div class="bl-count">
+                    <button data-tooltip="Bідняти" class="bl-minus">-</button>
+                    <span class="bl-label">1</span>
+                    <button data-tooltip="Додати"  class="bl-plus">+</button>
+                </div>
+                <div class="bl-buttons">
+                    <button data-tooltip="Куплено" class="bl-bought-button" id ="bought-but">Куплено</button>
+                    <button  data-tooltip="Видалити" class="bl-delete">×</button>
+                </div>
+            </div>
+    </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript"src="main.js"></script>
+</body>
+</html>
